@@ -6,9 +6,8 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
+included-patches = "client-spoof disable-shorts-on-startup hdr-auto-brightness hide-ads hide-breaking-news-shelf minimized-playback navigation-buttons open-links-externally playback-speed remember-video-quality sponsorblock spoof-app-version video-ads"
+exclusive-patches = true
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
